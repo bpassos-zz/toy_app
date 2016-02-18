@@ -1,28 +1,60 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+== README
 
-Things you may want to cover:
+This is a Ruby on rails tutoria from railstutorial.org
 
-* Ruby version
+In this tutorial talks about a high-level overview of a Rails application.
 
-* System dependencies
+This toy app has several strangths and a host of weaknesses.
 
-* Configuration
+Strengths
 
-* Database creation
+* High level overview of Rails
 
-* Database initialization
+* Introduction to MVC
 
-* How to run the test suite
+* First taste of the REST architecture
 
-* Services (job queues, cache servers, search engines, etc.)
+* Beginning data modeling
 
-* Deployment instructions
+Weaknesses
 
-* ...
+* No custom layout or styling
 
+* No static pages (such as "home" or "about")
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* No user passwords
+
+* No user images
+
+* no logging in
+
+* No security
+
+* No automatic user/micropost association
+
+* No notion of "following" or "followed"
+
+* No micropost feed
+
+* No meaningful tests
+
+* No real understanding
+
+What was learned
+
+* Scaffolding automatically creates code to model data and interact with it through the web
+
+* Scaffolding is good for getting started quickly but is bad for understanding.
+
+* Rails uses the Model-View-Controller (MVC) pattern for structuring web applications.
+
+* Interpreted by Rails, the REST architacture includes a standard set of URLs and controller actions for interacting with data models.
+
+* Rails supports data validations to place constraints on the values of data model attributes.
+
+* Rails comes with built-in functions for defining associations between different data models.
+
+* We can interact with Rails applications at the command line using the Rails console.
+
