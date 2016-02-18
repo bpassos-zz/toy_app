@@ -1,7 +1,5 @@
 == README
 
-== README
-
 This is a Ruby on rails tutoria from railstutorial.org
 
 In this tutorial talks about a high-level overview of a Rails application.
